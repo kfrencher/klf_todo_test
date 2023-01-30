@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Create and impersonate user with the following values:
+First name = General
+and Last name = User
+and User ID = general.user
+and Email = general.user@example.com</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create General User to submit as non-privileged user</notes>
+        <order>1</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>9588393797e82550b2e1f97e6253af6f</sys_id>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_9588393797e82550b2e1f97e6253af6f</sys_update_name>
+        <table>sys_user</table>
+        <test display_value="KLF Todo Classic">2f58353797e82550b2e1f97e6253af2e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=9588393797e82550b2e1f97e6253af6f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>26c87d3797e82550b2e1f97e6253af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>2ac87d3797e82550b2e1f97e6253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>2ec87d3797e82550b2e1f97e6253af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value/>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>66c87d3797e82550b2e1f97e6253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value>General</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>a2c87d3797e82550b2e1f97e6253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>eac87d3797e82550b2e1f97e6253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value>user_name=general.user^email=general.user@example.com^EQ</value>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9588393797e82550b2e1f97e6253af6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 09:01:44</sys_created_on>
+        <sys_id>eec87d3797e82550b2e1f97e6253af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 09:01:44</sys_updated_on>
+        <value>User</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=9588393797e82550b2e1f97e6253af6f"/>
+</record_update>
