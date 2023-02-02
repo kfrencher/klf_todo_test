@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following UI actions are visible: Complete, Save
+Confirm that the following UI actions are not visible: Save as Draft, Submit
+With a failure timeout of 5 Seconds</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>12</order>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 12:10:27</sys_created_on>
+        <sys_id>46e6f0e897fce550b2e1f97e6253af54</sys_id>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_46e6f0e897fce550b2e1f97e6253af54</sys_update_name>
+        <table>x_912467_klf_todo_task</table>
+        <test display_value="KLF Todo Classic">2f58353797e82550b2e1f97e6253af2e</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=46e6f0e897fce550b2e1f97e6253af54"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>46e6f0e897fce550b2e1f97e6253af54</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 12:10:28</sys_created_on>
+        <sys_id>6627bce897fce550b2e1f97e6253af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 12:10:28</sys_updated_on>
+        <value>x_912467_klf_todo_task</value>
+        <variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>46e6f0e897fce550b2e1f97e6253af54</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 12:10:28</sys_created_on>
+        <sys_id>a227bce897fce550b2e1f97e6253af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 12:10:28</sys_updated_on>
+        <value>d783b57f97a82550b2e1f97e6253afa5,2f137d3f97a82550b2e1f97e6253af6a</value>
+        <variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>46e6f0e897fce550b2e1f97e6253af54</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 12:10:28</sys_created_on>
+        <sys_id>ea27bce897fce550b2e1f97e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 12:10:28</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>46e6f0e897fce550b2e1f97e6253af54</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 12:10:28</sys_created_on>
+        <sys_id>ee27bce897fce550b2e1f97e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 12:10:28</sys_updated_on>
+        <value>7d34f0a497fce550b2e1f97e6253afce,369cb50c97bc6550b2e1f97e6253af65</value>
+        <variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+</record_update>
