@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Set Field Values (SP)">f31d1b8997786110b2e1f97e6253af50</copied_from>
+        <description>Set the values on the form as follows:
+Label = Setting required field</description>
+        <display_name>Set Field Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Field Values (SP)">ba49e51de7420300b2888f49c2f6a93c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-03 12:33:30</sys_created_on>
+        <sys_id>65399ced9730e110b2e1f97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values (SP)</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_65399ced9730e110b2e1f97e6253af8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-03 12:33:30</sys_updated_on>
+        <table>x_912467_klf_todo_task</table>
+        <test display_value="KLF Submit, Complete Todo SP copy">e13918ed9730e110b2e1f97e6253aff0</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=65399ced9730e110b2e1f97e6253af8d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>65399ced9730e110b2e1f97e6253af8d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-03 12:33:30</sys_created_on>
+        <sys_id>65399ced9730e110b2e1f97e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-03 12:33:30</sys_updated_on>
+        <value>label=Setting required field^EQ</value>
+        <variable display_value="Field values">5c297551e7020300b2888f49c2f6a933</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>65399ced9730e110b2e1f97e6253af8d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-03 12:33:30</sys_created_on>
+        <sys_id>a1399ced9730e110b2e1f97e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-03 12:33:30</sys_updated_on>
+        <value>x_912467_klf_todo_task</value>
+        <variable display_value="Table">adf8f511e7020300b2888f49c2f6a9f3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_ba49e51de7420300b2888f49c2f6a93c^id=65399ced9730e110b2e1f97e6253af8d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_atf_step_65399ced9730e110b2e1f97e6253af8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Set Field Values (SP)">f31d1b8997786110b2e1f97e6253af50</copied_from><description>Set the values on the form as follows:
+Label = Setting required field</description><display_name>Set Field Values (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Field Values (SP)">ba49e51de7420300b2888f49c2f6a93c</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-03 12:33:30</sys_created_on><sys_id>65399ced9730e110b2e1f97e6253af8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Field Values (SP)</sys_name><sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package><sys_policy/><sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope><sys_update_name>sys_atf_step_65399ced9730e110b2e1f97e6253af8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-03 12:33:30</sys_updated_on><table>x_912467_klf_todo_task</table><test display_value="KLF Submit, Complete Todo SP copy">e13918ed9730e110b2e1f97e6253aff0</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=65399ced9730e110b2e1f97e6253af8d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>65399ced9730e110b2e1f97e6253af8d</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-03 12:33:30</sys_created_on><sys_id>65399ced9730e110b2e1f97e6253af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-03 12:33:30</sys_updated_on><value>label=Setting required field^EQ</value><variable display_value="Field values">5c297551e7020300b2888f49c2f6a933</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>65399ced9730e110b2e1f97e6253af8d</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-03 12:33:30</sys_created_on><sys_id>a1399ced9730e110b2e1f97e6253af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-03 12:33:30</sys_updated_on><value>x_912467_klf_todo_task</value><variable display_value="Table">adf8f511e7020300b2888f49c2f6a9f3</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_ba49e51de7420300b2888f49c2f6a93c^id=65399ced9730e110b2e1f97e6253af8d"/></record_update>]]></payload>
+        <payload_hash>-972398159</payload_hash>
+        <record_name>Set Field Values (SP)</record_name>
+        <reverted_from/>
+        <source>994875b397e82550b2e1f97e6253afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-03 12:33:30</sys_created_on>
+        <sys_id>e5399ced9730e110b2e1f97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18617447ffd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-03 12:33:30</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>21399cedee30e1104ee525d40c5aaa90</update_guid>
+        <update_guid_history>21399cedee30e1104ee525d40c5aaa90:-972398159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-03 12:33:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3830e384b86c4f108f0ff64777355100</sys_id>
+        <sys_metadata>65399ced9730e110b2e1f97e6253af8d</sys_metadata>
+        <sys_name>Set Field Values (SP)</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_scope_delete display_value="">29074b435c4947dcb79ea1cc3b204110</sys_scope_delete>
+        <sys_update_name>sys_atf_step_65399ced9730e110b2e1f97e6253af8d</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_65399ced9730e110b2e1f97e6253af8d">e5399ced9730e110b2e1f97e6253af90</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="UI Action Visibility">6c8929c0977c6550b2e1f97e6253afda</copied_from>
+        <description>Confirm that the following UI actions are visible: Save as Draft
+With a failure timeout of 5 Seconds</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Make sure Save as Draft button is still visible</notes>
+        <order>7</order>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>ae77938197786110b2e1f97e6253aff0</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_ae77938197786110b2e1f97e6253aff0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:12:22</sys_updated_on>
+        <table>x_912467_klf_todo_task</table>
+        <test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=ae77938197786110b2e1f97e6253aff0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ae77938197786110b2e1f97e6253aff0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>2e77938197786110b2e1f97e6253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ae77938197786110b2e1f97e6253aff0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>6677938197786110b2e1f97e6253aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>x_912467_klf_todo_task</value>
+        <variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ae77938197786110b2e1f97e6253aff0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>a277938197786110b2e1f97e6253aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ae77938197786110b2e1f97e6253aff0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>ee77938197786110b2e1f97e6253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>d783b57f97a82550b2e1f97e6253afa5</value>
+        <variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_atf_step_ae77938197786110b2e1f97e6253aff0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="UI Action Visibility">6c8929c0977c6550b2e1f97e6253afda</copied_from><description>Confirm that the following UI actions are visible: Save as Draft
+With a failure timeout of 5 Seconds</description><display_name>UI Action Visibility</display_name><inputs/><mugshots_cache_json/><notes>Make sure Save as Draft button is still visible</notes><order>7</order><step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>ae77938197786110b2e1f97e6253aff0</sys_id><sys_mod_count>22</sys_mod_count><sys_name>UI Action Visibility</sys_name><sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package><sys_policy/><sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope><sys_update_name>sys_atf_step_ae77938197786110b2e1f97e6253aff0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:12:22</sys_updated_on><table>x_912467_klf_todo_task</table><test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ae77938197786110b2e1f97e6253aff0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae77938197786110b2e1f97e6253aff0</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>2e77938197786110b2e1f97e6253aff1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae77938197786110b2e1f97e6253aff0</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>6677938197786110b2e1f97e6253aff2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>x_912467_klf_todo_task</value><variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae77938197786110b2e1f97e6253aff0</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>a277938197786110b2e1f97e6253aff2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value/><variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae77938197786110b2e1f97e6253aff0</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>ee77938197786110b2e1f97e6253aff1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>d783b57f97a82550b2e1f97e6253afa5</value><variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-2044144219</payload_hash>
+        <record_name>UI Action Visibility</record_name>
+        <reverted_from/>
+        <source>994875b397e82550b2e1f97e6253afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:12:23</sys_created_on>
+        <sys_id>5588130597786110b2e1f97e6253af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1861241bae70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:12:23</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>5d881305a278611068b4e00b175f7131</update_guid>
+        <update_guid_history>5d881305a278611068b4e00b175f7131:-2044144219,29681fc133786110c985ae4aa8162966:-910718300,d5681fc15c786110336be8f196a57c2a:-2044144219,db58dbc1367861109b96f7d52d076f8c:1117397158,a7381bc1ac786110293512a9cb9d02b8:-2044144219,142857c18678611002595a22c8beb87e:-910718300,051817c14b786110ba8035c3028ae738:-2044144219,e3e7df81c7786110013ad7328131aea2:-910718300,cce79f8167786110eb7a7061002e9078:-2044144219,d0b71b81ad786110c05525f4b5ed3ce9:-910718300,b2a71b8101786110864c1a975b04f32c:-2044144219,e27793812b786110e81e67f482f4c3f4:-2003380594</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:12:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>557204c5a1784864a08c74af2c24b7a9</sys_id>
+        <sys_metadata>ae77938197786110b2e1f97e6253aff0</sys_metadata>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_scope_delete display_value="">29074b435c4947dcb79ea1cc3b204110</sys_scope_delete>
+        <sys_update_name>sys_atf_step_ae77938197786110b2e1f97e6253aff0</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_ae77938197786110b2e1f97e6253aff0">5588130597786110b2e1f97e6253af32</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

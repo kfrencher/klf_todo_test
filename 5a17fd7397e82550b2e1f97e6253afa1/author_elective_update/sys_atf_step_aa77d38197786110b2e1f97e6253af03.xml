@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Create a User">9c85fc2897fce550b2e1f97e6253afc9</copied_from>
+        <description>Create and impersonate user with the following values:
+First name = Provisioner
+and Last name = User
+and User ID = provisioner.user9c85fc2897fce550b2e1f97e6253afc9
+and Email = provisioner.user9c85fc2897fce550b2e1f97e6253afc9@example.com
+With roles: snc_internal
+With groups: Trivium</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create Provisioner User to submit as non-privileged user</notes>
+        <order>11</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>aa77d38197786110b2e1f97e6253af03</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_aa77d38197786110b2e1f97e6253af03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:32:44</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=aa77d38197786110b2e1f97e6253af03"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>2277d38197786110b2e1f97e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>Provisioner</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>2677d38197786110b2e1f97e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>6e77d38197786110b2e1f97e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>15dc657e97cbd910b2e1f97e6253afac</value>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>a677d38197786110b2e1f97e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>user_name=provisioner.user9c85fc2897fce550b2e1f97e6253afc9^email=provisioner.user9c85fc2897fce550b2e1f97e6253afc9@example.com^EQ</value>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>aa77d38197786110b2e1f97e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>User</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>e277d38197786110b2e1f97e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>aa77d38197786110b2e1f97e6253af03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:50</sys_created_on>
+        <sys_id>e677d38197786110b2e1f97e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:50</sys_updated_on>
+        <value>7fcaa702933002009c8579b4f47ffbde</value>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=aa77d38197786110b2e1f97e6253af03"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_atf_step_aa77d38197786110b2e1f97e6253af03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Create a User">9c85fc2897fce550b2e1f97e6253afc9</copied_from><description>Create and impersonate user with the following values:
+First name = Provisioner
+and Last name = User
+and User ID = provisioner.user9c85fc2897fce550b2e1f97e6253afc9
+and Email = provisioner.user9c85fc2897fce550b2e1f97e6253afc9@example.com
+With roles: snc_internal
+With groups: Trivium</description><display_name>Create a User</display_name><inputs/><mugshots_cache_json/><notes>Create Provisioner User to submit as non-privileged user</notes><order>11</order><step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>aa77d38197786110b2e1f97e6253af03</sys_id><sys_mod_count>38</sys_mod_count><sys_name>Create a User</sys_name><sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package><sys_policy/><sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope><sys_update_name>sys_atf_step_aa77d38197786110b2e1f97e6253af03</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:32:44</sys_updated_on><table>sys_user</table><test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=aa77d38197786110b2e1f97e6253af03"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>2277d38197786110b2e1f97e6253af06</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>Provisioner</value><variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>2677d38197786110b2e1f97e6253af05</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>1</value><variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>6e77d38197786110b2e1f97e6253af05</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>15dc657e97cbd910b2e1f97e6253afac</value><variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>a677d38197786110b2e1f97e6253af06</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>user_name=provisioner.user9c85fc2897fce550b2e1f97e6253afc9^email=provisioner.user9c85fc2897fce550b2e1f97e6253afc9@example.com^EQ</value><variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>aa77d38197786110b2e1f97e6253af05</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>User</value><variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>e277d38197786110b2e1f97e6253af06</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>sys_user</value><variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa77d38197786110b2e1f97e6253af03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:50</sys_created_on><sys_id>e677d38197786110b2e1f97e6253af05</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:50</sys_updated_on><value>7fcaa702933002009c8579b4f47ffbde</value><variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=aa77d38197786110b2e1f97e6253af03"/></record_update>]]></payload>
+        <payload_hash>107442168</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>994875b397e82550b2e1f97e6253afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:32:44</sys_created_on>
+        <sys_id>572d5b8997786110b2e1f97e6253afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18612545d530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:32:44</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>5f2d5b896c786110d3e382a977c114a4</update_guid>
+        <update_guid_history>5f2d5b896c786110d3e382a977c114a4:107442168,df099f05527861109bbed922c7773c50:-188604775,3c095f051e78611009bb4f23d5d6ffa0:107442168,70e85b056e786110574e85e7f846399f:-188604775,1ed81b05d4786110e75a5e6657c3ebfb:107442168,a7b85705dc7861105a1150553fed97f3:-188604775,74b81705cc78611071643a48c3503eff:107442168,fa881305847861109d17ff398d59f2d3:-188604775,c1881305ef78611078177db0e079b31e:107442168,e9681fc1fe786110491d7abbbd207788:-188604775,a1681fc140786110c93dc7bff82f9a40:107442168,1358dbc126786110c3e277f40d851879:403489111,eb381bc18e7861102b58bf3224795ea4:107442168,982857c1057861106ce24e66bd301d93:-188604775,491817c1ad7861104bd467f9fa3d7f24:107442168,6be7df817c7861108b28b03beac90db7:-188604775,04e79f81d47861101c807f23c03e4965:107442168,58b71b8196786110a1645d8f040a49fe:-188604775,7aa7d78104786110908365473c9f34ff:107442168,a277d381b27861104c9d0cf07b923c08:178426497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-04 09:07:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3eee46f100b44e678e022e85e3b72211</sys_id>
+        <sys_metadata>aa77d38197786110b2e1f97e6253af03</sys_metadata>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_scope_delete display_value="">29074b435c4947dcb79ea1cc3b204110</sys_scope_delete>
+        <sys_update_name>sys_atf_step_aa77d38197786110b2e1f97e6253af03</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_aa77d38197786110b2e1f97e6253af03">572d5b8997786110b2e1f97e6253afa5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

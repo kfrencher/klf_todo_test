@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Click a UI Action">3a993d3797e82550b2e1f97e6253af7d</copied_from>
+        <description>Confirm that browser submits 'Task' form to server within 5 Seconds of clicking UI action 'Save as Draft'</description>
+        <display_name>Click a UI Action</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Try saving form as draft without filling out any form fields</notes>
+        <order>5</order>
+        <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>a277938197786110b2e1f97e6253afe7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_a277938197786110b2e1f97e6253afe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:10:27</sys_updated_on>
+        <table>x_912467_klf_todo_task</table>
+        <test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a277938197786110b2e1f97e6253afe7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a277938197786110b2e1f97e6253afe7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>2677938197786110b2e1f97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">535cb5ab53233300f06fddeeff7b1247</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a277938197786110b2e1f97e6253afe7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>6277938197786110b2e1f97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>d783b57f97a82550b2e1f97e6253afa5</value>
+        <variable display_value="UI action">7c5f6d2353e0220002c6435723dc34f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a277938197786110b2e1f97e6253afe7</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>ae77938197786110b2e1f97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert type">7600f16353e0220002c6435723dc34d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a277938197786110b2e1f97e6253afe7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>e677938197786110b2e1f97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>x_912467_klf_todo_task</value>
+        <variable display_value="Table">3eee292353e0220002c6435723dc343c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_atf_step_a277938197786110b2e1f97e6253afe7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Click a UI Action">3a993d3797e82550b2e1f97e6253af7d</copied_from><description>Confirm that browser submits 'Task' form to server within 5 Seconds of clicking UI action 'Save as Draft'</description><display_name>Click a UI Action</display_name><inputs/><mugshots_cache_json/><notes>Try saving form as draft without filling out any form fields</notes><order>5</order><step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>a277938197786110b2e1f97e6253afe7</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Click a UI Action</sys_name><sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package><sys_policy/><sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope><sys_update_name>sys_atf_step_a277938197786110b2e1f97e6253afe7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:10:27</sys_updated_on><table>x_912467_klf_todo_task</table><test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a277938197786110b2e1f97e6253afe7"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a277938197786110b2e1f97e6253afe7</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>2677938197786110b2e1f97e6253afe8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">535cb5ab53233300f06fddeeff7b1247</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a277938197786110b2e1f97e6253afe7</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>6277938197786110b2e1f97e6253afe8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>d783b57f97a82550b2e1f97e6253afa5</value><variable display_value="UI action">7c5f6d2353e0220002c6435723dc34f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a277938197786110b2e1f97e6253afe7</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>ae77938197786110b2e1f97e6253afe7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert type">7600f16353e0220002c6435723dc34d5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a277938197786110b2e1f97e6253afe7</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>e677938197786110b2e1f97e6253afe8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>x_912467_klf_todo_task</value><variable display_value="Table">3eee292353e0220002c6435723dc343c</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1977844814</payload_hash>
+        <record_name>Click a UI Action</record_name>
+        <reverted_from/>
+        <source>994875b397e82550b2e1f97e6253afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:10:27</sys_created_on>
+        <sys_id>c51817c197786110b2e1f97e6253af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186123ff9720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:10:27</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>cd1817c1c0786110c05af5482a5b7b41</update_guid>
+        <update_guid_history>cd1817c1c0786110c05af5482a5b7b41:-1977844814,6fe7df811678611058c975022f400a97:1463000915,d8e79f81d1786110b359d340b3eaee82:-1977844814,5cb71b8160786110ff69611723abf4de:1463000915,8fa71b8138786110ec1e55b2613d3335:-1977844814,66779381f8786110683d2ee420fddfea:-175246059</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:10:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0c580e412bb840aeb7990a1fcb288104</sys_id>
+        <sys_metadata>a277938197786110b2e1f97e6253afe7</sys_metadata>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_scope_delete display_value="">29074b435c4947dcb79ea1cc3b204110</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a277938197786110b2e1f97e6253afe7</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a277938197786110b2e1f97e6253afe7">c51817c197786110b2e1f97e6253af42</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

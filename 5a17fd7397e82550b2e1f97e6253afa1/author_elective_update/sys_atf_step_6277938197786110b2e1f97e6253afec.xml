@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Field Values Validation">4b29e1c0977c6550b2e1f97e6253af1b</copied_from>
+        <description>Validate that the form matches the following condition:
+Status = Draft
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validate that the form is still in draft status</notes>
+        <order>6</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>6277938197786110b2e1f97e6253afec</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_update_name>sys_atf_step_6277938197786110b2e1f97e6253afec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:11:50</sys_updated_on>
+        <table>x_912467_klf_todo_task</table>
+        <test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=6277938197786110b2e1f97e6253afec"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6277938197786110b2e1f97e6253afec</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>2277938197786110b2e1f97e6253afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6277938197786110b2e1f97e6253afec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>a677938197786110b2e1f97e6253afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>x_912467_klf_todo_task</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6277938197786110b2e1f97e6253afec</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:07:49</sys_created_on>
+        <sys_id>e277938197786110b2e1f97e6253afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:07:49</sys_updated_on>
+        <value>status=draft^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=6277938197786110b2e1f97e6253afec"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</application>
+        <file_path/>
+        <instance_id>3985fabbdb7037808aea21c40596199a</instance_id>
+        <instance_name>dev82424</instance_name>
+        <name>sys_atf_step_6277938197786110b2e1f97e6253afec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Field Values Validation">4b29e1c0977c6550b2e1f97e6253af1b</copied_from><description>Validate that the form matches the following condition:
+Status = Draft
+With a failure timeout of 5 Seconds</description><display_name>Field Values Validation</display_name><inputs/><mugshots_cache_json/><notes>Validate that the form is still in draft status</notes><order>6</order><step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>6277938197786110b2e1f97e6253afec</sys_id><sys_mod_count>18</sys_mod_count><sys_name>Field Values Validation</sys_name><sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package><sys_policy/><sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope><sys_update_name>sys_atf_step_6277938197786110b2e1f97e6253afec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:11:50</sys_updated_on><table>x_912467_klf_todo_task</table><test display_value="KLF Todo SP">6e77538197786110b2e1f97e6253afe3</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=6277938197786110b2e1f97e6253afec"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6277938197786110b2e1f97e6253afec</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>2277938197786110b2e1f97e6253afed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6277938197786110b2e1f97e6253afec</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>a677938197786110b2e1f97e6253afed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>x_912467_klf_todo_task</value><variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6277938197786110b2e1f97e6253afec</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 13:07:49</sys_created_on><sys_id>e277938197786110b2e1f97e6253afed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 13:07:49</sys_updated_on><value>status=draft^EQ</value><variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=6277938197786110b2e1f97e6253afec"/></record_update>]]></payload>
+        <payload_hash>871265894</payload_hash>
+        <record_name>Field Values Validation</record_name>
+        <reverted_from/>
+        <source>994875b397e82550b2e1f97e6253afc1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:11:50</sys_created_on>
+        <sys_id>d9681fc197786110b2e1f97e6253af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18612413d6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 13:11:50</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>d1681fc1c878611010c2718115bb0325</update_guid>
+        <update_guid_history>d1681fc1c878611010c2718115bb0325:871265894,9b58dbc1a378611026ab4ec6489ba791:1496543877,67381bc17a786110a627c35f20fd1abd:871265894,102857c10778611083904d721118b579:245987911,c11817c159786110c651ada7abdd133d:871265894,23e7df812578611004edad9a1b89539d:245987911,9ce79f8177786110ef5a07efdf1aad7d:871265894,10b71b816e786110e3f183cc3a3379e4:245987911,72a71b81f8786110f573f50fc90c3a31:871265894,e27793813f786110b88b993290ac40ef:-1798993455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 13:11:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>22f7ce310ae34b9c8b3f501d1ec84ad1</sys_id>
+        <sys_metadata>6277938197786110b2e1f97e6253afec</sys_metadata>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="KLF Todo Test" source="x_912467_todo_test">5a17fd7397e82550b2e1f97e6253afa1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KLF Todo Test">5a17fd7397e82550b2e1f97e6253afa1</sys_scope>
+        <sys_scope_delete display_value="">29074b435c4947dcb79ea1cc3b204110</sys_scope_delete>
+        <sys_update_name>sys_atf_step_6277938197786110b2e1f97e6253afec</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_6277938197786110b2e1f97e6253afec">d9681fc197786110b2e1f97e6253af25</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
